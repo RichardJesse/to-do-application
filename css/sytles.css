@@ -35,7 +35,7 @@
 }
 .add-task-icon{
     display:inline-block;
-    position: absolute;
+    position: fixed;
     width:20px;
     height:20px;
     right: 65px;
@@ -68,7 +68,7 @@
         }
 
         .menu-popup {
-            position: absolute;
+            position: fixed;
             top: 50px;
             left: 0;
             padding-top: 50%px;
