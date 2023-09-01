@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sytles.css">
+    <link rel="stylesheet" href="./css/task-styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="menu">
+        <!-- <div>Menu</div> -->
+        <div class="menu-icon">
+            &#9776;
+        </div>
+    </div>
+    <div class="menu-popup">
+        <ul>
+            <li >completed</li>
+            <li >important</li>
+            <li >list</li>
+        </ul>
+    </div>
+    <li class="task-list"></li>
+
+
+    <div class="input-task-container">
+        <input type="text" class="task-input" placeholder="try adding a task here">
+        <div class="add-task-icon">+</div>
+    </div>
+
+    <div class="edit-popup" id="edit-popup">
+        <h3 class="popup-title">edit task</h3>
+        <span class="icon"><i class="fa-regular fa-circle"></i></span>
+        <input type="text" class="edit-input">
+        <button class="save-button">Save</button>
+
+    </div>
+
+    
+    <script src="./js/popUpController-1.js"></script>
+    <script src="./js/taskAdditonController.js"></script>
+    
+</body>
+</html>
